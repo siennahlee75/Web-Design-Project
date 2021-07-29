@@ -1,0 +1,209 @@
+/*START OF INDEX PAGE*/
+body {
+	background-image: url("/Users/Sienna/Desktop/Hyowon_Lee_193223710/images/wallpaper.jpg");
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Lucida Sans Unicode, Tahoma, Comic Sans;
+	line-height: 1.5;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited, .another {
+	color: #CF5C3F;
+}
+
+a:hover, a:active {
+	background-color: #CF5C3F;
+	color: #FFF;
+}
+
+.body {
+	margin: 0 auto;
+	width: 90%;
+	clear: both; /* makes container so that no floating elements on the left/right */
+}
+
+.mainHeader img {
+	width: 30%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.mainHeader nav {
+	background-color: #F26B8A;
+	height: 40px;
+	border-radius: 5px;
+	float: none;
+	text-align: center
+}
+
+}
+.mainHeader nav ul {
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	/*float: left;*/
+	display: inline
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 1% 4%;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav a:active a:link, .mainHeader nav a:active a:visited {
+	background-color: #FDAB9F;
+	color: red;
+	font-weight: bold;
+	font-size: 150%;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+}
+
+.content {
+	width: 70%;
+	float: left;
+}
+
+.topcontent, .bottomcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin: 2%;
+	text-align: center;
+}
+
+.mainFooter {
+  position: fixed;
+  /*left: 0;*/
+  bottom: 0;
+  width: 90%;
+  background-color: #F26B8A;
+  color: white;
+  text-align: center;
+  float: none;
+  height: 6%;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.mainFooter p, .mainFooter p a{
+	width: 92%;
+	margin: 1% auto;
+	color: #FFF;
+}
+.sidebar {
+	width: 21%;
+	height: 50%;
+	float: left;
+	vertical-align: middle;
+	background-color: #FFF;
+	border-radius: 5px;
+	/*margin: 1.5% 0 3% 0;*/
+	margin-top: 6.5%;
+	padding: 2% 4%;
+	/*overflow: hidden;*/
+}
+
+.sidebar-title {
+	color: #CF5C3F;
+}
+
+.FB, .IG, .TW {
+	color: #2B2B2B	;
+}
+
+.sidebar ul {
+	list-style-type: disc;
+	color: purple;
+	font-weight: bold;
+	font-size: 2vw;
+	text-align: center;
+}
+
+.sidebar ul div {
+	font-size: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.sidebar ul li {
+	margin-top: 0%;
+}
+
+h3 {
+	text-align: center;
+	font-family: Tahoma;
+	color: red;
+	font-weight: bold;
+	font-size: 1vw;
+}
+.para {
+	text-align: center;
+	font-size: 1vw;
+	color: blue;
+	font-family: Tahoma;
+}
+
+.sidebar ul li:link, .sidebar ul li:visited {
+	color: #FFF;
+}
+
+.sidebar ul li p:hover, .sidebar ul li p:active,
+.sidebar ul li p:active ul li p:link, .sidebar ul li p:active ul li p:visited {
+	background-color: #CF5C3F;
+	text-shadow: none;
+}
+
+.post-info {
+	font-style: italic;
+	color: #7E7E7E;
+	text-align: center;
+	font-size: 95%;
+}
+/*END OF INDEX PAGE*/
+
+/*START OF MENU PAGE*/
+
+ol {
+	color: purple;
+	text-align: center;	
+}
+
+/*END OF MENU PAGE*/
+
+
+/*START OF CONTACT PAGE*/
+.campus {
+	color: blue;
+}
+
+.fieldset1 {
+	text-align: center;
+	background-color: #F5DCE0;
+}
+
+.legend {
+	text-align: center;
+	color: #CF5C3F;	
+	font-size: 140%;
+}
+
+/*END OF CONTACT PAGE*/
